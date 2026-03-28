@@ -1,18 +1,20 @@
 export const portfolioData = {
   personal: {
-    name: "Abdullah Rahman",
-    initials: "AR",
-    role: "Frontend Web Developer",
-    about:
-      "I'm a frontend web developer passionate about building beautiful, responsive, and user-friendly web applications. I turn complex ideas into clean, intuitive interfaces using modern web technologies.",
-    email: "abdullah@example.com",
-    phone: "+880 1700-000000",
+    name: "MD SAJIB",
+    initials: "MS",
+    role: "Full Stack Web Developer",
+    tagline: "Building beautiful, responsive web experiences",
+    about: "I'm a passionate Full Stack Web Developer dedicated to building modern, responsive, and user-friendly web applications. I love transforming complex ideas into clean, efficient, and intuitive digital experiences using the latest web technologies. Currently, I am seeking opportunities to enhance my skills, grow as a developer, and contribute to impactful and meaningful projects.",
+    email: "sajibbhuyantangail2024@gmail.com",
+    img: "/assets/images/nature-img2.png",
+    phone: "+880 1902759535",
     location: "Dhaka, Bangladesh",
-    github: "https://github.com/abdullah",
-    linkedin: "https://linkedin.com/in/abdullah",
+    github: "https://github.com/sajibwebtpi",
+    linkedin: "https://www.linkedin.com/in/md-bhuyan",
     availability: "Open to work",
-    resumeUrl: "/resume.pdf",
+    resumeUrl: "/MD_Sajib_Resume.pdf",
   },
+
   skills: [
     { name: "HTML / CSS", level: 92 },
     { name: "JavaScript", level: 80 },
@@ -23,45 +25,49 @@ export const portfolioData = {
     { name: "PHP", level: 60 },
     { name: "Git / GitHub", level: 78 },
   ],
-  tools: ["VS Code", "Figma", "npm", "Vite", "REST API", "MySQL", "Postman", "Axios"],
+
+  tools: ["VS Code", "Figma", "npm", "Vite", "REST API", "MySQL", "Postman", "Axios", "Xampp"],
+
   education: [
     {
-      degree: "BSc in Computer Science & Engineering",
-      institution: "Dhaka University of Engineering & Technology",
-      period: "2019 — 2023",
-      result: "CGPA: 3.60 / 4.00",
+      degree: "Diploma in Computer Science & Engineering",
+      institution: "Tangail Polytechnic Institute",
+      period: "2013 — 2026",
+      result: "CGPA: 3.50 / 4.00",
       desc: "Focused on software engineering, algorithms, and web development.",
     },
     {
       degree: "Higher Secondary Certificate (HSC)",
-      institution: "Dhaka College, Dhaka",
-      period: "2017 — 2019",
+      institution: "Shaheed Salam High School, Tangail, Ghatail",
+      period: "2020 — 2022",
       result: "GPA: 5.00 / 5.00",
       desc: "Science group.",
     },
   ],
+
   experience: [
-    {
-      role: "Junior Frontend Developer",
-      company: "TechSoft Bangladesh Ltd.",
-      period: "Jan 2024 — Present",
-      desc: "Building responsive UIs with React and Tailwind CSS. Integrating Laravel REST APIs. Collaborating with design and backend teams on multiple client projects.",
-    },
-    {
-      role: "Web Development Intern",
-      company: "StartupBD, Dhaka",
-      period: "Jul 2023 — Dec 2023",
-      desc: "Assisted in building the company website using HTML, CSS, and JavaScript. Learned Vue.js and worked on small client projects.",
-    },
+    // {
+    //   role: "Junior Frontend Developer",
+    //   company: "TechSoft Bangladesh Ltd.",
+    //   period: "Jan 2024 — Present",
+    //   desc: "Building responsive UIs with React and Tailwind CSS. Integrating Laravel REST APIs. Collaborating with design and backend teams on multiple client projects.",
+    // },
+    // {
+    //   role: "Web Development Intern",
+    //   company: "StartupBD, Dhaka",
+    //   period: "Jul 2023 — Dec 2023",
+    //   desc: "Assisted in building company website using HTML, CSS, and JavaScript. Learned Vue.js and worked on small client projects.",
+    // },
   ],
+
   projects: [
     {
       icon: "🛒",
-      name: "E-commerce App",
-      desc: "Full-stack online shop with cart, authentication, and payment integration.",
+      name: "Inventory Management System",
+      desc: "Full-stack online shop with authentication.",
       tags: ["React", "Laravel", "MySQL", "Tailwind"],
       live: "#",
-      github: "#",
+      github: "https://github.com/sajibwebtpi/Inventory-Project.git",
     },
     {
       icon: "📋",
@@ -69,14 +75,14 @@ export const portfolioData = {
       desc: "Drag-and-drop kanban board for managing daily tasks and team projects.",
       tags: ["Vue.js", "Tailwind", "REST API"],
       live: "#",
-      github: "#",
+      github: "https://github.com/sajibwebtpi/Task-Management-App.git",
     },
     {
       icon: "🌦",
-      name: "Weather App",
-      desc: "Real-time weather forecast using OpenWeather API with location search.",
+      name: "Online Book Store",
+      desc: "An online bookstore where users can browse, search, and purchase books. Features include book categories, detailed descriptions, shopping cart, and secure checkout.",
       tags: ["React", "API", "CSS"],
-      live: "#",
+      live: "https://github.com/sajibwebtpi/online-book-store.git",
       github: "#",
     },
     {
