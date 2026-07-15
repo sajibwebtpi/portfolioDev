@@ -17,7 +17,7 @@ export default function Navbar({ activeSection }) {
   const handleResume = () => {
     const link = document.createElement("a");
     link.href = portfolioData.personal.resumeUrl;
-    link.setAttribute("download", "Abdullah_Rahman_Resume.pdf");
+    link.setAttribute("download", "MD_Sajib_Bhuyan_Resume.pdf");
     link.setAttribute("target", "_blank");
     document.body.appendChild(link);
     link.click();

@@ -1,30 +1,30 @@
 export const portfolioData = {
   personal: {
-    name: "MD SAJIB",
+    name: "MD. Sajib Bhuyan",
     initials: "MS",
-    role: "Full Stack Web Developer",
-    tagline: "Building beautiful, responsive web experiences",
-    about: "I'm a passionate Full Stack Web Developer dedicated to building modern, responsive, and user-friendly web applications. I love transforming complex ideas into clean, efficient, and intuitive digital experiences using the latest web technologies. Currently, I am seeking opportunities to enhance my skills, grow as a developer, and contribute to impactful and meaningful projects.",
+    role: "Junior Web Developer | React.js | PHP Laravel",
+    tagline: "Building modern, responsive and scalable web applications",
+    about: "I am a passionate Junior Full Stack Web Developer specializing in React.js, JavaScript, PHP, and Laravel. I build modern, responsive, and user-friendly web applications with clean code and scalable solutions. I enjoy solving problems, learning new technologies, and transforming ideas into functional digital products. Currently, I am looking for opportunities where I can contribute my skills and grow as a professional developer.",
     email: "sajibbhuyantangail2024@gmail.com",
-    img: "/assets/images/nature-img2.png",
+    img: "/assets/images/Confident_man.png",
     phone: "+880 1902759535",
     location: "Dhaka, Bangladesh",
     github: "https://github.com/sajibwebtpi",
-    linkedin: "https://www.linkedin.com/in/md-bhuyan",
+    linkedin: "https://www.linkedin.com/in/md-sajib-bhuyan/",
     availability: "Open to work",
-    resumeUrl: "/MD_Sajib_Resume.pdf",
+    resumeUrl: "/resume.pdf"
   },
 
-  skills: [
-    { name: "HTML / CSS", level: 92 },
-    { name: "JavaScript", level: 80 },
-    { name: "React", level: 75 },
-    { name: "Vue.js", level: 70 },
-    { name: "Tailwind CSS", level: 85 },
-    { name: "Laravel", level: 65 },
-    { name: "PHP", level: 60 },
-    { name: "Git / GitHub", level: 78 },
-  ],
+skills: [
+ { name: "HTML / CSS", level: 90 },
+ { name: "JavaScript", level: 82 },
+ { name: "React.js", level: 78 },
+ { name: "Tailwind CSS", level: 85 },
+ { name: "PHP", level: 75 },
+ { name: "Laravel", level: 72 },
+ { name: "MySQL", level: 75 },
+ { name: "Git / GitHub", level: 80 },
+],
 
   tools: ["VS Code", "Figma", "npm", "Vite", "REST API", "MySQL", "Postman", "Axios", "Xampp"],
 
@@ -32,7 +32,7 @@ export const portfolioData = {
     {
       degree: "Diploma in Computer Science & Engineering",
       institution: "Tangail Polytechnic Institute",
-      period: "2013 — 2026",
+      period: "2023 — 2026",
       result: "CGPA: 3.50 / 4.00",
       desc: "Focused on software engineering, algorithms, and web development.",
     },
@@ -45,27 +45,26 @@ export const portfolioData = {
     },
   ],
 
-  experience: [
-    // {
-    //   role: "Junior Frontend Developer",
-    //   company: "TechSoft Bangladesh Ltd.",
-    //   period: "Jan 2024 — Present",
-    //   desc: "Building responsive UIs with React and Tailwind CSS. Integrating Laravel REST APIs. Collaborating with design and backend teams on multiple client projects.",
-    // },
-    // {
-    //   role: "Web Development Intern",
-    //   company: "StartupBD, Dhaka",
-    //   period: "Jul 2023 — Dec 2023",
-    //   desc: "Assisted in building company website using HTML, CSS, and JavaScript. Learned Vue.js and worked on small client projects.",
-    // },
-  ],
+experience: [
+  {
+    role: "Full Stack Web Developer (Self Projects)",
+    company: "Personal Projects",
+    period: "2024 — Present",
+    desc: "Developing modern web applications using React.js, JavaScript, PHP, Laravel, and MySQL. Building responsive user interfaces, REST API integrations, authentication systems, CRUD operations, and database-driven applications while following clean coding practices.",
+  },
+  {
+    role: "Web Development Learner",
+    company: "Self Learning & Online Training",
+    period: "2024 — Present",
+    desc: "Completed structured web development training and continuously improving skills in frontend and backend technologies including React.js, Tailwind CSS, Bootstrap.css, Livewire ,Filament ,PHP, Laravel, MySQL, Git, and REST API development.",
+  },
+],
 
   projects: [
     {
       icon: "🛒",
       name: "Inventory Management System",
-      desc: "Full-stack online shop with authentication.",
-      tags: ["React", "Laravel", "MySQL", "Tailwind"],
+      desc: "A full-stack inventory management system with product management, stock tracking, sales management, and authentication.",      tags: ["React", "Laravel", "MySQL", "Tailwind"],
       live: "#",
       github: "https://github.com/sajibwebtpi/Inventory-Project.git",
     },
@@ -82,8 +81,8 @@ export const portfolioData = {
       name: "Online Book Store",
       desc: "An online bookstore where users can browse, search, and purchase books. Features include book categories, detailed descriptions, shopping cart, and secure checkout.",
       tags: ["React", "API", "CSS"],
-      live: "https://github.com/sajibwebtpi/online-book-store.git",
-      github: "#",
+      live: "#",
+      github: "https://github.com/sajibwebtpi/online-book-store.git",
     },
     {
       icon: "💬",

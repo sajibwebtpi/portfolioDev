@@ -19,23 +19,25 @@ export default function Contact() {
 
   const contactInfo = [
     { label: "Email", value: personal.email, href: `mailto:${personal.email}` },
-    { label: "Phone", value: personal.phone, href: `tel:${personal.phone}` },
-    { label: "GitHub", value: "github.com/abdullah", href: personal.github },
-    { label: "LinkedIn", value: "linkedin.com/in/abdullah", href: personal.linkedin },
+    { label: "WhatsApp", value: personal.phone, href: `https://wa.me/${personal.phone.replace(/\D/g, "")}` },
+    { label: "GitHub", value: "github.com/sajibwebtpi", href: personal.github },
+    { label: "LinkedIn", value: "linkedin.com/in/sajibbhuyan", href: personal.linkedin },
   ];
 
   return (
     <section id="contact" className="border-t border-white/5">
       <div className="max-w-6xl mx-auto px-6 py-24">
         <p className="text-sm text-blue-500 font-medium uppercase tracking-widest mb-3">Contact</p>
-        <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">Get in touch</h2>
+        <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">Let's Work Together</h2>
         <div className="w-12 h-1 bg-blue-600 rounded mb-12" />
 
         <div className="grid md:grid-cols-2 gap-12">
           {/* Left */}
           <div>
             <p className="text-lg text-neutral-300 leading-relaxed mb-8">
-              I'm currently open to new opportunities. Whether you have a project in mind or just want to say hi — feel free to reach out!
+             I'm currently looking for new opportunities as a Junior Web Developer. 
+If you have a project, collaboration idea, or just want to connect, feel free to reach out. 
+I'd love to discuss how I can contribute and grow with your team.
             </p>
             <div className="flex flex-col gap-3">
               {contactInfo.map((item) => (

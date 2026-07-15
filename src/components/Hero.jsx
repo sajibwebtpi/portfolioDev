@@ -12,7 +12,7 @@ export default function Hero() {
   const handleResume = () => {
     const link = document.createElement("a");
     link.href = personal.resumeUrl;
-    link.setAttribute("download", "MD_Sajib_Resume.pdf");
+    link.setAttribute("download", "MD_Sajib_Bhuyan_Resume.pdf");
     link.setAttribute("target", "_blank");
     document.body.appendChild(link);
     link.click();
@@ -30,12 +30,14 @@ export default function Hero() {
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
             {personal.availability}
           </div>
-
-          {/* Name */}
-          <h1 className="fade-up-2 font-display text-6xl md:text-8xl font-bold text-white leading-none tracking-tight mb-4">
-            {personal.name.split(" ")[0]}<br />
-            <span className="text-neutral-500">{personal.name.split(" ")[1]}</span>
-          </h1>
+     {/* Name */}
+          <h1 className="fade-up-2 font-sans text-6xl md:text-8xl font-bold text-white leading-none tracking-tight mb-4">
+          {personal.name.split(" ").slice(0,2).join(" ")}
+          <br />
+          <span className="text-neutral-500">
+          {personal.name.split(" ").slice(2).join(" ")}
+  </span>
+</h1>
 
           {/* Role */}
           <p className="fade-up-3 text-2xl md:text-3xl text-blue-400 font-display font-medium mb-6">
@@ -115,7 +117,7 @@ export default function Hero() {
             <div className="absolute inset-2 rounded-full border border-white/10" />
 
             {/* Image */}
-            <div className="absolute inset-3 rounded-full overflow-hidden bg-neutral-800">
+            <div className="absolute inset-1 rounded-full overflow-hidden bg-neutral-800">
               <img
                 src={personal.img}
                 alt={personal.name}
