@@ -66,7 +66,7 @@ experience: [
       name: "Inventory Management System",
       desc: "A full-stack inventory management system with product management, stock tracking, sales management, and authentication.",      tags: ["React", "Laravel", "MySQL", "Tailwind"],
       live: "#",
-      github: "https://github.com/sajibwebtpi/Inventory-Project.git",
+      github: "https://github.com/sajibwebtpi/Inventory-management-system",
     },
     {
       icon: "📋",
@@ -76,8 +76,9 @@ experience: [
       live: "#",
       github: "https://github.com/sajibwebtpi/Task-Management-App.git",
     },
+
     {
-      icon: "🌦",
+      icon: "📗",
       name: "Online Book Store",
       desc: "An online bookstore where users can browse, search, and purchase books. Features include book categories, detailed descriptions, shopping cart, and secure checkout.",
       tags: ["React", "API", "CSS"],
@@ -85,12 +86,13 @@ experience: [
       github: "https://github.com/sajibwebtpi/online-book-store.git",
     },
     {
-      icon: "💬",
-      name: "Chat Application",
-      desc: "Real-time chat app with rooms, user authentication, and WebSocket.",
-      tags: ["Vue.js", "Laravel", "WebSocket"],
-      live: "#",
-      github: "#",
-    },
+  icon: "🎬",
+  name: "YouTube Homepage Design",
+  desc: "A responsive YouTube homepage clone built with HTML and CSS, featuring a modern video grid layout, sidebar navigation, search bar, channel cards, and adaptive design for different screen sizes. The project focuses on UI structure, CSS positioning, Flexbox/Grid layout, and pixel-perfect frontend design practice.",
+  tags: ["HTML", "CSS", "Responsive Design"],
+  live: "https://youtube-homepage-uhpn.vercel.app/",
+  github: "https://github.com/sajibwebtpi/Youtube-homepage",
+}
+
   ],
 };
